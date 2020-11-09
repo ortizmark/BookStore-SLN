@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore-API", "BookStore-API\BookStore-API.csproj", "{096A4308-0FCD-4BDC-899D-62F809F9F298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096A4308-0FCD-4BDC-899D-62F809F9F298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096A4308-0FCD-4BDC-899D-62F809F9F298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096A4308-0FCD-4BDC-899D-62F809F9F298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096A4308-0FCD-4BDC-899D-62F809F9F298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {493BC820-9E1C-4BA9-8F23-84AFA8B2A4C5}
+	EndGlobalSection
+EndGlobal
