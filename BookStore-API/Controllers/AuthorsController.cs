@@ -35,6 +35,8 @@ namespace BookStore_API.Controllers
         /// </summary>
         /// <returns>List of Authors</returns>
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAuthors()
         {
             try
@@ -57,7 +59,9 @@ namespace BookStore_API.Controllers
        /// </summary>
        /// <param name="id"></param>
        /// <returns></returns>
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAuthor(int id)
         {
             try
@@ -154,7 +158,7 @@ namespace BookStore_API.Controllers
                 if (!isSuccess)
                 {
                     _logger.LogWarn($"Author update failed");
-                    return InternalError($"Author creation failed");
+                    return InternalError($"Author update failed");
                 }
                 _logger.LogInfo($"Author with id {id} successfully updated");
                 return NoContent();
@@ -173,6 +177,7 @@ namespace BookStore_API.Controllers
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Delete(int id)
         {

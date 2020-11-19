@@ -1,0 +1,1 @@
+2020-11-18 18:57:59.3976 INFO Books - Delete: Book with id 1 successfully deleted

@@ -1,0 +1,24 @@
+2020-11-15 21:45:35.7919 INFO Attemted Get All Books
+2020-11-15 21:45:37.7588 INFO Attemted Succeeded to Get All Books
+2020-11-15 21:55:17.3826 INFO {location}: Attemted Get Book with id:{id}
+2020-11-15 21:55:18.7150 WARN Books - GetBook: Book with id of 1 not found
+2020-11-15 22:04:01.3037 INFO Books - GetBook: Attemted Get Book with id:5
+2020-11-15 22:04:02.6887 WARN Books - GetBook: Book with id of 5 not found
+2020-11-15 22:56:51.4128 INFO Books - Create: Book Submission Attempted
+2020-11-15 22:56:51.7651 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book - 
+2020-11-15 22:59:51.2227 INFO Books - Create: Book Submission Attempted
+2020-11-15 22:59:51.2666 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book - 
+2020-11-15 23:02:58.1649 INFO Books - Create: Book Submission Attempted
+2020-11-15 23:02:59.7682 INFO Books - Create: Book created successfully
+2020-11-15 23:11:21.3982 INFO Books - Create: Book Submission Attempted
+2020-11-15 23:11:22.7579 INFO Books - Create: Book created successfully BookStore_API.Data.Book
+2020-11-15 23:14:50.1004 INFO Books - Create: Book Submission Attempted
+2020-11-15 23:14:51.4321 INFO Books - Create: Book created successfully
