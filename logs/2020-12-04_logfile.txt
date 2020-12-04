@@ -1,0 +1,28 @@
+2020-12-04 12:21:26.6933 INFO Users - Login: login attempt for user: customer11
+2020-12-04 12:21:26.8483 INFO Users - Login: Failed login for user: customer11
+2020-12-04 12:22:01.4359 INFO Users - Login: login attempt for user: admin
+2020-12-04 12:22:01.8221 INFO Users - Login: Successful login for user: admin
+2020-12-04 12:53:04.5632 INFO Attemted Get All Authors
+2020-12-04 12:53:04.7508 INFO Attemted Succeeded to Get All Authors
+2020-12-04 12:55:32.6823 INFO Attemted Get Author with id:{id}
+2020-12-04 13:57:55.1328 INFO Attemted Get All Authors
+2020-12-04 13:57:56.2541 INFO Attemted Succeeded to Get All Authors
+2020-12-04 13:58:16.4979 INFO Attemted Get Author with id:{id}
+2020-12-04 14:09:24.2825 INFO Users - Login: login attempt for user: admin
+2020-12-04 14:09:24.7528 INFO Users - Login: Successful login for user: admin
+2020-12-04 14:14:12.0725 INFO Author Submission Attempted
+2020-12-04 14:14:12.6134 INFO Author created successfully
+2020-12-04 14:16:06.2081 INFO Attemted Get All Authors
+2020-12-04 14:16:06.3271 INFO Attemted Succeeded to Get All Authors
+2020-12-04 14:25:16.2683 INFO Users - Login: login attempt for user: admin
+2020-12-04 14:25:16.3512 INFO Users - Login: Successful login for user: admin
+2020-12-04 14:29:36.4319 INFO Users - Login: login attempt for user: customer1
+2020-12-04 14:29:36.4795 INFO Users - Login: Successful login for user: customer1
+2020-12-04 14:30:53.3338 WARN Author with id: 1 not found
+2020-12-04 14:33:36.6115 INFO Attemted Get All Authors
+2020-12-04 14:33:36.7338 INFO Attemted Succeeded to Get All Authors
+2020-12-04 14:34:29.9475 INFO Users - Login: login attempt for user: customer1
+2020-12-04 14:34:30.1902 INFO Users - Login: Successful login for user: customer1
+2020-12-04 14:36:34.4971 INFO Author with id 4 successfully deleted
+2020-12-04 14:37:14.7847 INFO Attemted Get All Authors
+2020-12-04 14:37:14.8007 INFO Attemted Succeeded to Get All Authors

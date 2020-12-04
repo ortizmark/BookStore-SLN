@@ -1,1 +1,3 @@
 2020-11-18 18:57:59.3976 INFO Books - Delete: Book with id 1 successfully deleted
+2020-11-18 23:24:29.6216 INFO Users - Login: login attempt for user: customer1
+2020-11-18 23:24:29.9012 INFO Users - Login: Successful login for user: customer1
